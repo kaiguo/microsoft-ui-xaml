@@ -545,7 +545,7 @@
                                     </VisualState.Setters>
                                 </VisualState>
                                 <VisualState x:Name="TextBoxUnfocused" />
-                            </VisualStateGroup>
+                            </contract7Present:VisualStateGroup>
                         </VisualStateManager.VisualStateGroups>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
