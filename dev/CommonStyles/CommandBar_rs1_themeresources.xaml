@@ -917,7 +917,7 @@
                 <ControlTemplate TargetType="CommandBarOverflowPresenter">
                     <Grid x:Name="LayoutRoot"
                         Background="{TemplateBinding Background}"
-                        BackgroundSizing="OuterBorderEdge"
+                        contract7Present:BackgroundSizing="OuterBorderEdge"
                         Padding="{TemplateBinding Padding}"
                         BorderBrush="{TemplateBinding BorderBrush}"
                         BorderThickness="{ThemeResource CommandBarOverflowPresenterBorderThickness}">
