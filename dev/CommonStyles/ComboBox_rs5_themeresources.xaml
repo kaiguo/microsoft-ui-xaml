@@ -3,23 +3,6 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 
-    <ResourceDictionary.ThemeDictionaries>
-        <ResourceDictionary x:Key="Default">
-           <StaticResource x:Key="ComboBoxDropDownBackground" ResourceKey="SystemControlTransientBackgroundBrush" />
-            <StaticResource x:Key="ComboBoxDropDownBorderBrush" ResourceKey="SystemControlTransientBorderBrush" />
-        </ResourceDictionary>
-
-        <ResourceDictionary x:Key="HighContrast">
-            <StaticResource x:Key="ComboBoxDropDownBackground" ResourceKey="SystemControlBackgroundChromeMediumLowBrush" />
-            <StaticResource x:Key="ComboBoxDropDownBorderBrush" ResourceKey="SystemControlForegroundChromeHighBrush" />
-        </ResourceDictionary>
-
-        <ResourceDictionary x:Key="Light">
-            <StaticResource x:Key="ComboBoxDropDownBackground" ResourceKey="SystemControlTransientBackgroundBrush" />
-            <StaticResource x:Key="ComboBoxDropDownBorderBrush" ResourceKey="SystemControlTransientBorderBrush" />
-        </ResourceDictionary>
-    </ResourceDictionary.ThemeDictionaries>
-
     <Thickness x:Key="ComboBoxLeftHeaderMargin">0,5,32,0</Thickness>
     <x:Double x:Key="ComboBoxLeftHeaderMaxWidth">296</x:Double>
     <x:Int32 x:Key="ComboBoxPopupMaxNumberOfItems">15</x:Int32>

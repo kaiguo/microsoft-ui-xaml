@@ -6,5 +6,5 @@
     <!-- Default style for Windows.UI.Xaml.Controls.ComboBox -->
 
 
-    <Style TargetType="ComboBoxItem" BasedOn="{StaticResource ComboBoxItemRevealStyle}" />
+    
 </ResourceDictionary>
