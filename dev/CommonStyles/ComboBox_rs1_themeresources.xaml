@@ -118,7 +118,7 @@
             <StaticResource x:Key="ComboBoxFocusedDropDownBackgroundPointerOver" ResourceKey="SystemControlBackgroundChromeBlackLowBrush" />
             <StaticResource x:Key="ComboBoxFocusedDropDownBackgroundPointerPressed" ResourceKey="SystemControlBackgroundChromeBlackMediumLowBrush" />
             <StaticResource x:Key="ComboBoxEditableDropDownGlyphForeground" ResourceKey="SystemControlForegroundAltMediumHighBrush" />
-         </ResourceDictionary>
+        </ResourceDictionary>
         <ResourceDictionary x:Key="HighContrast">
             <StaticResource x:Key="ComboBoxItemForeground" ResourceKey="SystemControlForegroundBaseHighBrush" />
             <StaticResource x:Key="ComboBoxItemForegroundPressed" ResourceKey="SystemControlHighlightAltBaseHighBrush" />
@@ -596,7 +596,7 @@
                             VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
                             <TextBlock x:Name="PlaceholderTextBlock"
                                 Text="{TemplateBinding PlaceholderText}"
-				contract5NotPresent:Foreground="{ThemeResource ComboBoxPlaceHolderForeground}
+				                contract5NotPresent:Foreground="{ThemeResource ComboBoxPlaceHolderForeground}"
                                 contract5Present:Foreground="{Binding PlaceholderForeground, RelativeSource={RelativeSource TemplatedParent}, TargetNullValue={ThemeResource ComboBoxPlaceHolderForeground}}" />
                         </ContentPresenter>
                         <contract7Present:TextBox x:Name="EditableText"
@@ -907,6 +907,6 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-    </Style>
+    </contract7Present:Style>
 
 </ResourceDictionary>
