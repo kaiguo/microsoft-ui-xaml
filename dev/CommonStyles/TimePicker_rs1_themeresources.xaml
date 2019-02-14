@@ -119,7 +119,6 @@
     <x:Double x:Key="TimePickerThemeMaxWidth">456</x:Double>
     
     <Thickness x:Key="TimePickerFlyoutPresenterItemPadding">0,3,0,6</Thickness>
-    <Thickness x:Key="DateTimeFlyoutBorderPadding">0</Thickness>
 
     <Style TargetType="TimePicker">
         <Setter Property="IsTabStop" Value="False" />

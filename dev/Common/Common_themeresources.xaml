@@ -20,6 +20,6 @@
     </ResourceDictionary.ThemeDictionaries>
    
     <!-- DateTimeFlyoutBorderPadding is defined since RS5. set it here to ensure it's always defined. -->
-    <contract7NotPresent:Thickness x:Key="DateTimeFlyoutBorderPadding">0</Thickness>
+    <Thickness x:Key="DateTimeFlyoutBorderPadding">0</Thickness>
 
 </ResourceDictionary>
