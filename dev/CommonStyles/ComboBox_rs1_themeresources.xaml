@@ -598,7 +598,7 @@
                             VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
                             <TextBlock x:Name="PlaceholderTextBlock"
                                 Text="{TemplateBinding PlaceholderText}"
-				                contract5NotPresent:Foreground="{ThemeResource ComboBoxPlaceHolderForeground}"
+                                contract5NotPresent:Foreground="{ThemeResource ComboBoxPlaceHolderForeground}"
                                 contract5Present:Foreground="{Binding PlaceholderForeground, RelativeSource={RelativeSource TemplatedParent}, TargetNullValue={ThemeResource ComboBoxPlaceHolderForeground}}" />
                         </ContentPresenter>
                         <contract7Present:TextBox x:Name="EditableText"
