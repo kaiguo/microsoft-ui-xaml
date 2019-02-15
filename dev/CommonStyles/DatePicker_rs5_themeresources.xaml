@@ -19,10 +19,6 @@
             <StaticResource x:Key="DatePickerFlyoutPresenterBorderBrush" ResourceKey="SystemControlTransientBorderBrush" />
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
-
-    <Thickness x:Key="DatePickerLeftHeaderMargin">0,5,32,0</Thickness>
-    <x:Double x:Key="DatePickerFlyoutPresenterItemHeight">40</x:Double>
-    <x:Double x:Key="DatePickerLeftHeaderMaxWidth">296</x:Double>
    
 </ResourceDictionary>
 

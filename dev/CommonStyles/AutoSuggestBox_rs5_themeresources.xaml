@@ -17,10 +17,6 @@
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 
-    <Thickness x:Key="AutoSuggestBoxLeftHeaderMargin">0,5,32,0</Thickness>
-    <x:Double x:Key="AutoSuggestBoxLeftHeaderMaxWidth">296</x:Double>
-
-
 </ResourceDictionary>
 
 
