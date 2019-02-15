@@ -34,10 +34,6 @@
       <Version>RS4</Version>
       <Type>ThemeResources</Type>
     </Page>
-    <Page Include="$(MSBuildThisFileDirectory)AppBarToggleButton_rs5_themeresources.xaml">
-      <Version>RS5</Version>
-      <Type>ThemeResources</Type>
-    </Page>
     <Page Include="$(MSBuildThisFileDirectory)ListBox_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
