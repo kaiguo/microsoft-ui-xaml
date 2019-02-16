@@ -52,7 +52,7 @@ winrt::IInspectable NavigationViewItemAutomationPeer::GetPatternCore(winrt::Patt
 {
     winrt::IInspectable result = __super::GetPatternCore(pattern);
 
-    if (!result && pattern == winrt::PatternInterface::Invoke)
+    if (!result && (pattern == winrt::PatternInterface::Invoke || pattern == winrt::PatternInterface::ExpandCollapse))
     {
         // The settings item is outside the ListView, so we need to handle its invoke method ourselves.
         result = *this;
@@ -310,4 +310,52 @@ int32_t NavigationViewItemAutomationPeer::GetPositionOrSetCountInTopNavHelper(wi
     }
 
     return returnValue;
+}
+
+// IExpandCollapseProvider 
+winrt::ExpandCollapseState NavigationViewItemAutomationPeer::ExpandCollapseState()
+{
+    if (auto item = Owner().try_as<winrt::NavigationViewItem>())
+    {
+        bool hasChildren = (item.MenuItems().Size() > 0 ||
+            item.MenuItemsSource() ||
+            item.HasUnrealizedChildren());
+
+        if (hasChildren)
+        {
+            if (item.IsExpanded())
+            {
+                return winrt::ExpandCollapseState::Expanded;
+            }
+            else
+            {
+                return winrt::ExpandCollapseState::Collapsed;
+            }
+        }
+    }
+    return winrt::ExpandCollapseState::LeafNode;
+}
+
+void NavigationViewItemAutomationPeer::Collapse()
+{
+    UpdateIsExpandedTo(false);
+}
+
+void NavigationViewItemAutomationPeer::Expand()
+{
+    UpdateIsExpandedTo(true);
+}
+
+void NavigationViewItemAutomationPeer::UpdateIsExpandedTo(bool isExpanded)
+{
+    if (auto item = Owner().try_as<winrt::NavigationViewItem>())
+    {
+        if (auto navigationView = GetParentNavigationView())
+        {
+            winrt::get_self<NavigationView>(navigationView)->UpdateNavigationViewItemExpandedProperty(item, isExpanded);
+            //        RaiseExpandCollapseAutomationEvent(winrt::ExpandCollapseState::Expanded);
+            //        RaiseExpandCollapseAutomationEvent(winrt::ExpandCollapseState::Collapsed);
+
+        }
+    }
 }

@@ -1475,18 +1475,23 @@ void NavigationView::ToggleIsExpanded(winrt::NavigationViewItem const& item)
         if (hasChildren)
         {
             auto isItemBeingExpanded = !item.IsExpanded();
-            if (isItemBeingExpanded)
-            {
-                RaiseIsExpanding(item);
-            }
-
-            item.IsExpanded(isItemBeingExpanded);
-
-            if (!isItemBeingExpanded)
-            {
-                RaiseCollapsed(item);
-            }
+            UpdateNavigationViewItemExpandedProperty(item, isItemBeingExpanded);
         }
+    }
+}
+
+void NavigationView::UpdateNavigationViewItemExpandedProperty(winrt::NavigationViewItem const& item, bool isExpanded)
+{
+    if (isExpanded)
+    {
+        RaiseIsExpanding(item);
+    }
+
+    item.IsExpanded(isExpanded);
+
+    if (!isExpanded)
+    {
+        RaiseCollapsed(item);
     }
 }
 

@@ -85,6 +85,7 @@ public:
     void Collapse(winrt::NavigationViewItem const& value);
 
     winrt::NavigationViewItem GetLastExpandedItem();
+    void UpdateNavigationViewItemExpandedProperty(winrt::NavigationViewItem const& item, bool isExpanded);
 
 private:
     bool ShouldIgnoreMeasureOverride();

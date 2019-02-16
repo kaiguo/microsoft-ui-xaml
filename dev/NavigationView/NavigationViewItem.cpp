@@ -366,6 +366,13 @@ NavigationViewItemPresenter * NavigationViewItem::GetPresenter()
 // IUIElement / IUIElementOverridesHelper
 winrt::AutomationPeer NavigationViewItem::OnCreateAutomationPeer()
 {
+    //bool hasChildren = (MenuItems().Size() > 0 ||
+    //                    MenuItemsSource() ||
+    //                    HasUnrealizedChildren());
+    //if (hasChildren)
+    //{
+    //    return winrt::make<NavigationViewItemExpandableAutomationPeer>(*this);
+    //}
     return winrt::make<NavigationViewItemAutomationPeer>(*this);
 }
 
