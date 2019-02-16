@@ -17,6 +17,7 @@
     <Page Include="$(MSBuildThisFileDirectory)AppBarButton_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)AppBarButton_rs4_themeresources.xaml">
       <Version>RS4</Version>
@@ -29,6 +30,7 @@
      <Page Include="$(MSBuildThisFileDirectory)AppBarToggleButton_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)AppBarToggleButton_rs4_themeresources.xaml">
       <Version>RS4</Version>
@@ -37,14 +39,17 @@
     <Page Include="$(MSBuildThisFileDirectory)ListBox_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)RichEditBox_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)ComboBox_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)ComboBox_rs4_themeresources.xaml">
       <Version>RS4</Version>
@@ -57,6 +62,7 @@
     <Page Include="$(MSBuildThisFileDirectory)DatePicker_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)DatePicker_rs5_themeresources.xaml">
       <Version>RS5</Version>
@@ -65,14 +71,17 @@
     <Page Include="$(MSBuildThisFileDirectory)DateTimePickerFlyout_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)Slider_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)TimePicker_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>     
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)TimePicker_rs5_themeresources.xaml">
       <Version>RS5</Version>
@@ -81,10 +90,12 @@
     <Page Include="$(MSBuildThisFileDirectory)ToggleSwitch_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)CommandBar_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)CommandBar_rs5_themeresources.xaml">
       <Version>RS5</Version>
@@ -93,18 +104,22 @@
     <Page Include="$(MSBuildThisFileDirectory)PasswordBox_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)ListViewItem_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)TextBox_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)AutoSuggestBox_rs1_themeresources.xaml">
       <Version>RS1</Version>
       <Type>ThemeResources</Type>
+      <UseNonstandardCondtionalXAML>true</UseNonstandardCondtionalXAML>
     </Page>
     <Page Include="$(MSBuildThisFileDirectory)AutoSuggestBox_rs5_themeresources.xaml">
       <Version>RS5</Version>

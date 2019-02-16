@@ -112,8 +112,6 @@
     <Thickness x:Key="DatePickerFlyoutPresenterItemPadding">0,3,0,6</Thickness>
     <Thickness x:Key="DatePickerFlyoutPresenterMonthPadding">9,3,0,6</Thickness>
 
-    <Thickness x:Key="DateTimeFlyoutBorderPadding">0</Thickness>
-
     <Style TargetType="DatePicker">
         <Setter Property="Orientation" Value="Horizontal" />
         <Setter Property="IsTabStop" Value="False" />
