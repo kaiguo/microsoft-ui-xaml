@@ -20,8 +20,4 @@
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 
-    <Thickness x:Key="TimePickerLeftHeaderMargin">0,5,32,0</Thickness>
-    <x:Double x:Key="TimePickerFlyoutPresenterItemHeight">40</x:Double>
-    <x:Double x:Key="TimePickerLeftHeaderMaxWidth">296</x:Double>
-
 </ResourceDictionary>

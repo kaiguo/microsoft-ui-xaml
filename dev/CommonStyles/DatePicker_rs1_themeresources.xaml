@@ -105,13 +105,14 @@
 
     <Thickness x:Key="DatePickerTopHeaderMargin">0,0,0,4</Thickness>
     <x:Double x:Key="DatePickerFlyoutPresenterHighlightHeight">40</x:Double>
+    <x:Double x:Key="DatePickerFlyoutPresenterItemHeight">40</x:Double>
     <x:Double x:Key="DatePickerFlyoutPresenterAcceptDismissHostGridHeight">41</x:Double>
     <x:Double x:Key="DatePickerThemeMinWidth">296</x:Double>
     <x:Double x:Key="DatePickerThemeMaxWidth">456</x:Double>
     
     <Thickness x:Key="DatePickerFlyoutPresenterItemPadding">0,3,0,6</Thickness>
     <Thickness x:Key="DatePickerFlyoutPresenterMonthPadding">9,3,0,6</Thickness>
-
+    
     <Style TargetType="DatePicker">
         <Setter Property="Orientation" Value="Horizontal" />
         <Setter Property="IsTabStop" Value="False" />
